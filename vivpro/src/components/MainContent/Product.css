@@ -1,0 +1,10 @@
+@media only screen and (min-width: 600px) {
+	#grid {
+        grid-template-columns: 1fr
+	}
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
